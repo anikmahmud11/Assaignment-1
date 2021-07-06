@@ -4,49 +4,61 @@ body{
     color: rgb(92, 90, 90);
 }
 h1{
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 5%;
-    
 }
 .purple-color{
     color:rgba(101, 71, 185, 0.726) ;
 }
 .orange-color{
     color: orange;
-    
+}
+.orange{
+    color: orange;
+    padding-left: 38%;
 }
 .half-width{
-    width: 50%;
+    width: 100%;
     padding-left:3%;
+    
 }
 .half-width p{
-    width: 45%;
+    width: 65%;
     padding-left:0%;
+    padding-top:2% ;
+    padding-bottom:5%;
+    
 }
    
 .half-width img{
-        width: 80%;
-        padding-left:0%;
-        padding-top: 5%;
+        width: 90%;
+        padding-left:3%;
+       
+}
+.image-tips{
+    width: 100%;
+    
+    padding-top: 10%;
+    padding-bottom:0%;
 }
 
 .button{
     text-decoration: none;
-    background-image: linear-gradient(rgba(48, 74, 192, 0.897),rgb(153, 131, 231));
+    background-image: linear-gradient(rgba(48, 74, 192, 0.897),rgb(181, 168, 231));
    
     color: rgb(60, 0, 199);
     font-weight: 50;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+   
 }
-.dream-big{
+.tips{
     background-image:url(image/Fram.jpg);
     background-size:contain;
-    background-repeat:repeat;
     border-radius: 10px;
     box-shadow: 10px 10px 10px  rgb(117, 105, 163);
     padding-left:3%;
@@ -54,5 +66,67 @@ h1{
     margin-right: 3%;
     border-radius: 15px;
 }
+.paragraph p{
+    width: 50%;
+    padding-left:25%;
+    text-align: center;
+}
+.recipie{
+    box-shadow: 10px 10px 40px rgb(165, 158, 158);
+    width:50%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 25px;
+}
+.recipie img{
+        width: 100%;
+       border-radius: 20px;
+       padding-top:3%;
+}
+.three-box{
+    padding-left: 5%;
+}
+.social-box{
+    box-shadow: 10px 10px 40px rgb(100, 99, 99);
+    width: 50%;
+    height: 250px;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left: 25%;
+    border-radius: 25px;
+    
+    
+}
+.social-media{
+    
+        display:flex;
+        text-align: center; 
+        justify-content: center;
+}
+.social-status{
+    width: 100px; 
+    float:left; 
+    height:100px; 
+    margin:55px;
+    position:inherit;
+
+    
+}
+
+   
+.footer-text{
+    color: rgb(243, 212, 222);
+    text-align: center;
+    background-color: rgba(43, 10, 87, 0.801);
+    padding-top:5px;
+    padding-bottom:40px;
+}
+.footer-box{
+    padding-top:20px;
+}
+
+
 
     
